@@ -3,21 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>胖虎來了！FATIGER STUDIO  - 在线视频搜索与观看平台</title>
-    <meta name="description" content="胖虎來了！FATIGER STUDIO 是一个的在线视频搜索平台，无广告、安全，提供来自多个视频源的内容搜索与观看服务，无需注册即可使用。">
-    <meta name="keywords" content="在线视频,免费视频,视频搜索,电影,电视剧,胖虎來了！FATIGER STUDIO ">
-    <meta name="author" content="胖虎來了！FATIGER STUDIO ">
+    <title>胖虎來了！FATIGER STUDIO - 在线视频搜索与观看平台</title>
+    <meta name="description" content="胖虎來了！FATIGER STUDIO 是一个在线视频搜索平台，无广告、安全，提供来自多个视频源的内容搜索与观看服务，无需注册即可使用。">
+    <meta name="keywords" content="在线视频,免费视频,视频搜索,电影,电视剧,FATIGER STUDIO">
+    <meta name="author" content="FATIGER STUDIO">
 
     <!-- Favicon -->
     <link rel="icon" href="image/logo.png">
     <link rel="apple-touch-icon" href="image/logo-black.png">
     <link rel="manifest" href="manifest.json">
-    
-    <script src="libs/tailwindcss.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/index.css">
+
+    <!-- Tailwind -->
+    <script src="libs/tailwindcss.min.js"></script>
 </head>
+
 <body class="page-bg text-white">
+
+    <!-- Header區塊 -->
+    <header class="text-center mb-10">
+        <img src="image/logo.png" alt="FATIGER STUDIO LOGO" 
+     class="mx-auto w-32 h-32 rounded-full shadow-2xl border-4 border-white animate-pulse hover:scale-105 transition duration-300 ease-in-out mb-4">
+        <h1 class="text-5xl md:text-6xl font-black tracking-tight bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 text-transparent bg-clip-text animate-fade-in mb-3">
+  胖虎來了！
+</h1>
+        <h2 class="text-lg md:text-2xl text-white tracking-wide drop-shadow-sm font-medium">
+  FATIGER STUDIO · 無廣告 · 無帳號 · 一鍵看片神器
+</h2>
+    </header>
+
     <!-- 将历史记录按钮移到左上角，并缩小尺寸 -->
     <div class="fixed top-4 left-4 z-10">
         <button onclick="toggleHistory(event)" class="bg-[#222] hover:bg-[#333] border border-[#333] hover:border-white rounded-lg px-3 py-1.5 transition-colors" aria-label="观看历史">
